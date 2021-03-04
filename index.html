@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
 </head>
 
 <body>
     <!-- The initial header was a div with class header. It was changed to the more specific header tag-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,13 +23,14 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <div class="hero" title="Four people working together at a table."> </div>
     
+    <!-- This is the main content section of the page -->
     <section class="content">
-        <article class="search-engine-optimization">
+        <article class="search-engine-optimization" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A picture of a notebook with a search engine optimization diagram.">
             <h2>Search Engine Optimization</h2>
             <p>
@@ -37,14 +38,14 @@
             </p>
         </article>
         <!-- A couple of redundant ids were removed, as they weren't used for styling and there are equivalent class elements.-->
-        <article class="online-reputation-management">
+        <article class="online-reputation-management" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="a picture of a laptop with a bar graph trend depicting reputation measurements.">
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article class="social-media-marketing">
+        <article class="social-media-marketing" id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="six people sitting at a table discussing social media.">
             <h2>Social Media Marketing</h2>
             <p>
@@ -52,6 +53,7 @@
             </p>
         </article>
     </section>
+
     <section class="benefits">
         <figure class="benefit-lead">
             <h3>Lead Generation</h3>
