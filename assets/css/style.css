@@ -92,6 +92,8 @@ p {
     color: #ffffff;
 }
 
+/* The benefits section all has the same styling. The styling was consolidated into three sections instead of nine. The original code was left and commented out in case it wanted to be used later. */
+
 /*
 .benefit-brand {
     margin-bottom: 32px;
@@ -136,6 +138,8 @@ p {
     max-width: 150px;
 }
 */
+
+/* The consolidated benefit's section css */
 figure {
     margin-bottom: 32px;
     color: #ffffff;
@@ -150,6 +154,8 @@ figure img {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* The commented out code was left in case it needed to be edited later. */
 
 /*
 .search-engine-optimization {
